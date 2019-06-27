@@ -1,0 +1,670 @@
+[
+  {
+    "id": 1,
+    "city": "Avila",
+    "video": "",
+    "image": "img_avila",
+    "name": "DownÁvila",
+    "description": "Descubre los tesoros de la ruta DownÁvila. A continuación te mostramos el itinerario que integra esta ruta, haciendo un desglose de cada uno de los monumentos que lo componen. ",
+    "duration": "30' a pie",
+    "monuments": [
+      {
+        "id": 1,
+        "name": "Real Monasterio de Santo Tomás",
+        "image": "img_avila_santo_tomas",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/santo-tomas/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6504138" ,
+            "longitude": "-4.6910515"
+          }
+        ],
+        "date": "De 1482 a 1493",
+        "build": "D. Hernán Núñez Arnalte dejó un testamento pidiendo a su mujer y a Fray Tomás de Torquemada que construyeran un convento dedicado a Santo Tomás de Aquino. Los Reyes Católicos patrocinaron la obra. La construcción fue proyectada por Martín de Solórzano.",
+        "type": "De estilo Gótico. El exterior se distingue por su gran fachada en forma de “H”, letra inicial de la Hispanidad. Además podemos ver diez estatuas al lado de la puerta, un gran rosetón y el escudo de los Reyes Católicos sostenido por un águila. La iglesia está formada por una gran nave central y capillas entre contrafuertes como es habitual en las iglesias de los dominicos. Llama la atención que el coro y el altar mayor están situados en alto. Esto se hace para dejar libre el espacio principal de la iglesia para situar en él el sepulcro del Príncipe Don Juan, único hijo varón de los Reyes Católicos, que murió joven. El retablo mayor fue realizado por el pintor Pedro Berruguete y las tablas principales cuentan la vida de Santo Tomás de Aquino. A los pies de la iglesia, situado en alto, se encuentra el coro cuya sillería realizada en madera sirve para que los frailes puedan realizar sus rezos. Hay dos sillas del coro reservadas para los reyes. Además de la iglesia, el monasterio está formado por tres claustros de diferente tamaño. El más pequeño es el del Noviciado que es el más sobrio en decoración. En su parte sur es donde se encuentra la enfermería del convento. El claustro del Silencio se sitúa junto a la iglesia y tiene acceso directo a ella. Este claustro es especialmente de uso religioso para realizar procesiones o para enterrar a los frailes. Llama la atención la decoración del piso alto del claustro en el que aparecen los símbolos de los Reyes Católicos que son el yugo y las flechas. El tercero es el claustro de los Reyes, se llama así porque se pensó construir aquí un palacio de verano para los reyes. Es muy amplio y luminoso y sin apenas adornos. Aquí se encuentra el aula Magna de la desaparecida universidad de Santo Tomás y las dependencias del museo de Arte Oriental y el de Ciencias Naturales.",
+        "history": "Las obras comenzaron en 1482 y terminaron en 1493 bajo la dirección de Martínez de Solórzano. Estas fechas coinciden con la unificación de los reinos de España, la reconquista y el descubrimiento de América. Se construyó gracias a donativos de D. Hernán y los Reyes Católicos quienes eligieron el monasterio para el enterramiento de su hijo el Príncipe Don Juan. El monasterio sirvió como tribunal de la Inquisición. Allí vivió sus últimos años fray Tomás de Torquemada, inquisidor general. También fue centro de estudios y universidad. Durante la ocupación francesa las dependencias del monasterio se utilizaron como cuartel. En 1931 fue declarado Monumento Nacional.",
+        "curiosities": "En su decoración aparecen granadas que hacen referencia a la Conquista de ciudad de Granada (decoración muy típica de los Reyes Católicos). Este monasterio fue muy visitado por Santa Teresa de Jesús, ya que uno de los dominicos fue su confesor y queda su recuerdo en el confesionario situado en la capilla del Cristo de la Agonía ante el que rezaba La Santa.",
+        "uses": "Es un lugar de culto y visitas turísticas. Actualmente alberga un Museo de Arte Oriental y otro de Ciencias Naturales",
+        "images": [ {"image": "img_avila_santo_tomas1"},{"image": "img_avila_santo_tomas2"}, {"image": "img_avila_santo_tomas3"},{"image": "img_avila_santo_tomas4"}],
+
+        "videos": [ {"image": "img_avila_santo_tomas1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/santo-tomas/video1.mp4"},
+                    {"image": "img_avila_santo_tomas2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/santo-tomas/video2.mp4"},
+                    {"image": "img_avila_santo_tomas3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/santo-tomas/video3.mp4"}
+                   ],
+
+        "glossary": [
+          {
+            "name": "Hispanidad",
+            "definition": "Conjunto de paises y pueblos de cultura hispánica."
+          },
+          {
+            "name": "Rosetón",
+            "definition": "Ventana circular que tiene una vidriera adornada con diferentes dibujos y colores."
+          },
+          {
+            "name": "Testamento",
+            "definition": "Petición de una persona expresando lo que quiere que se haga con sus bienes después de su fallecimiento."
+          },
+          {
+            "name": "Claustro",
+            "definition": "Galería con columnas que rodea un jardín o patio interior."
+          },
+          {
+            "name": "Sepulcro",
+            "definition": "Tumba, generalmente de piedra, que se levanta sobre el suelo para enterrar uno o varios cadáveres."
+          },
+          {
+            "name": "Retablo",
+            "definition": "Estructura que se sitúa detrás del altar en las iglesias católicas. Puede tener esculturas y/o pinturas."
+          },
+          {
+            "name": "Inquisición",
+            "definition": "Antiguo tribunal de la Iglesia creado para descubrir y castigar las faltas contra la Iglesia."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "La Muralla de Ávila",
+        "localization": [
+          {
+            "latitude":"40.6576166" ,
+            "longitude": "-4.7059678"
+          }
+        ],
+        "image": "img_avila_muralla",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/muralla/video1.mp4",
+        "date": "La muralla se comenzó a construir a finales del siglo 11",
+        "build": "Tuvo 3 arquitectos: el italiano Casandro Colonio, el francés Florín de Pituenga y el español Alvar García.",
+        "type": "La muralla tiene 2 kilómetros y medio de largo, 9 puertas, 87 torreones y 2 postigos. Se comenzó su construcción por el lado este, es la parte más llana y más dificil de defender.Los muros son más anchos y más altos. Las piedras se sacaron de los alrededores de la ciudad y las rocas del terreno se usaron como base. Tambien se usaron lápidas de los romanos y restos de la muralla romana. Usaron la técnica del espejo, dos paredes de piedra casi juntas y el espacio entre ellas relleno de piedras más pequeñas, argamasa y trozos de otros materiales. ",
+        "history": "Fueron muchas las personas que ayudaron a construirla y mantenerla, tanto cristianos como judios y mudéjares. Ha sido reparada a lo largo de la historia modificándose la estructura de alguna de sus puertas. Los cristianos trabajaban la piedra, son los canteros. Los judios ponian el hierro. Los mudéjares usaron ladrillos decorativos en alguna partes de la muralla.",
+        "curiosities": "En 1985 entró en la lista del Patrimonio Mundial de la UNESCO. La Puerta del Peso de la Harina: está junto a la Casa de las Carnicerías. Los abulenses compraban la carne en la Casa de las Carnicerías. A esta puerta también se le llama Puerta de los Leales. Los reyes reconocieron a los habitantes de Ávila como leales a ellos. La puerta está entre 2 torres. En el centro hay 2 grandes entradas. Una es la entrada a la ciudad. La otra es la entrada a la Casa de las Carnicerías. La Casa de las Carnicerías es hoy una oficina de turismo. Desde aquí se puede subir a la muralla. Actualmente se puede pasear por todo el adarve que va desde esta puerta hasta la puerta del puente. La Puerta del Alcázar era la más cercana al antiguo castillo y por eso tiene un carácter más defensivo. Desde esta puerta se puede subir al adarve. La Puerta del Alcázar esta frente a la Plaza de Santa Teresa, también llamada Mercado Grande. Esta plaza es el centro de Ávila. La Puerta del Rastro: En la puerta se hizo después un arco y una galería de columnas. La galería de columnas es del Palacio de los Dávila. Esta galería es conocida por la leyenda de Don Alvar y Doña Guiomar. Esta leyenda cuenta que Don Alvar Dávila Capitán y Señor de Sotalbo, se enamoró de Doña Guiomar, la hija de Don Diego Zúñiga, cuando la vio asomada en la ventana del palacio donde vivía. Se vieron en varias ocasiones, pero siempre a través de aquella ventana. Don Alvar Dávila le dijo al padre de Guiomar que se quería casar con ella. Pero este le dijo que no y le prohibió que volviera a verla. Don Alvar construyó en Sotalbo un castillo conocido como “Manqueospese la veré”. Desde el castillo podía ver a Doña Guiomar y comunicarse con ella a través de humo o de pañuelos. Un día Doña Guiomar murió y su alma fue al castillo de Don Alvar. Él fue a la guerra y murió. Dicen que se dejó morir para encontrarse con su amada. La Puerta de La Santa: debe su nombre a Santa Teresa. La puerta es la entrada a la plaza de la Santa. En la plaza hay ahora un convento de frailes carmelitas. En el mismo sitio estuvo la casa donde nació Santa Teresa. La puerta tiene 2 torres cuadradas. Entre las torres hay un matacán. La Puerta de la Malaventura es la puerta más pequeña de la muralla. Por esta puerta se llega al antiguo barrio judío, llamado judería. Ahora hay un jardín de plantas aromáticas, que está dedicado al estudioso judío Moshé de León. El nombre de la Puerta de la Malaventura viene de una leyenda, “El Rey Niño”. Esta leyenda cuenta que el rey Alfonso de Aragón quiso quedarse con el hijo que su esposa Doña Urraca tuvo con su anterior marido. Los nobles de Ávila lo impidieron y protegieron al niño. Ese niño iba a ser el rey de Castilla unos años después. El rey quería ver al niño y aceptó entrar en Ávila para verlo. A cambio, 60 jóvenes de la ciudad debían quedarse en manos de su ejército. El rey quería asegurarse de que los nobles de Ávila no le iban a matar. Cuando volvió con su ejército, el rey ordenó cortar la cabeza a los 60 jóvenes de Ávila y hervirlas en agua. Aquel lugar pasó a denominarse y aún sigue nombrándose así, Las Hervencias, al norte de la ciudad. La puerta de San Vicente se llama así por estar enfrente de la Basílica de San Vicente. En esta zona de la muralla se desarrolla la leyenda de San Pedro del Barco.San Pedro fue un ermitaño, cuando murio habia varios pueblos que querian su cuerpo, se decidió subirlo a una mula y donde el animal muriera allí se enterraria.Dicen que llegó hasta la Basílica de San Vicente donde dejó su huella. A la mula la enterraron enfrente de la iglesia, debajo del cubo de la mula, por eso lleva su nombre. La puerta del Mariscal tiene este nombre porque vivía en el palacio que encontramos al lado de la puerta Don Álvaro Dávila, mariscal del rey Juan II de Castilla. La puerta del Carmen tiene este nombre por un antiguo convento. Hoy lo que era el convento es el archivo provincial.Enfrente está el Parador de Turismo .Esta puerta se caracteriza por la espadaña de ladrillo que tiene encima. La puerta del puente está enfrente del puente romano que cruza el rio Adaja.En esta zona estaban las industrias de los tejidos, molineros, aguadores… Actualmente es muy importante porque está la entrada a la parte de la muralla para personas con movilidad reducida.",
+        "uses": "Se dedica al turismo.",
+        "images": [{"image": "img_avila_muralla1"},{"image": "img_avila_muralla2"},{"image": "img_avila_muralla3"}],
+        "videos": [{"image": "img_avila_muralla1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/muralla/video2.mp4"},
+                   {"image": "img_avila_muralla2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/muralla/video3.mp4"},
+                   {"image": "img_avila_muralla3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/muralla/video4.mp4"}
+        ],
+        "glossary": [
+          {
+            "name": "Arquitecto",
+            "definition": "Persona que dirige las obras y hace los planos."
+          },
+          {
+            "name": "Torreón",
+            "definition": "También se puede llamar cubo."
+          },
+          {
+            "name": "Postigo",
+            "definition": "Puerta pequeña en la muralla."
+          },
+          {
+            "name": "Lápida",
+            "definition": "Es una piedra plana que normalmente tiene un texto escrito."
+          },
+          {
+            "name": "Argamasa",
+            "definition": "Mezcla de tierra, arena, piedra y paja. Se parece al cemento."
+          },
+          {
+            "name": "Adarve",
+            "definition": "Camino por donde se anda sobre la muralla."
+          },
+          {
+            "name": "UNESCO",
+            "definition": "Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura."
+          },
+          {
+            "name": "Leales",
+            "definition": "Personas de confianza."
+          },
+          {
+            "name": "Alcazar",
+            "definition": "Antiguo castillo de la ciudad."
+          },
+          {
+            "name": "Matacán",
+            "definition": "Parte saliente de la muralla con huecos para tirar piedras o líquidos calientes al atacante."
+          },
+          {
+            "name": "Mudéjar",
+            "definition": "Mulsumanes que vivian en las ciudades cristianas"
+          },
+          {
+            "name": "Ermitaño",
+            "definition": "Persona religiosa que vive sola, aislada."
+          },
+          {
+            "name": "Basílica",
+            "definition": "Es una iglesia más grande, donde se podian nombrar caballeros."
+          },
+          {
+            "name": "Mariscal",
+            "definition": "Militar importante"
+          },
+          {
+            "name": "Espadaña",
+            "definition": "Campanario que tiene una sola pared, en la que están abiertos los huecos para colocar las campanas."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Catedral del Salvador",
+        "image": "img_avila_catedral",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/catedral/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6557824" ,
+            "longitude": "-4.6992417"
+          }
+        ],
+        "date": "Del siglo 12 al 18",
+        "build": "La catedral fue construida por varias personas a lo largo de todos los siglos que duró su construcción. Inició la obra Fruchel. Hizo la parte de la cabecera. En obras sucesivas se realizaron el cuerpo de naves, las capillas, el claustro, la sacristía, la sala capitular, el traslado de la puerta de los Apóstoles, las vidirieras, el remate de las torres y la decoración del interior.",
+        "type": "Está considerada la primera catedral gótica de España. La parte construida por Fruchel es de estilo románico, coincide con la girola en la que destaca la piedra ferruginosa. Los maestros posteriores la continuaron en estilo gótico. También cuenta con decoración de estilo renacentista. Tiene planta de cruz latina formada por tres naves, crucero, cabecera semicircular, capillas y dos torres de planta cuadrada (la torre sur inacabada). En la parte exterior destaca: - La cabecera que se escuentra fortificada y es conocida como cimorro. - La portada de los apostoles. - La fachada principal. - La capilla de San Segundo. En el interior destaca: - El retablo del altar mayor con pinturas de Pedro Berruguete. - El sepulcro del Tostado, que fue Obispo de Ávila y uno de los intelectuales mas destacados de la época. El sepulcro lo realizó Vasco de la Zarza. - El coro, situado en la nave central y dedicado al rezo de los canónigos. - El trascoro con retablo de piedra caliza con escenas de la infancia de Cristo. - La Custodia, realizada en plata por Juan de Arfe. Ideada en forma de torre. Cada piso narra la historia de la Salvación con escenas con muchos detalles decorativos y con mensaje. Está en el museo.",
+        "history": "Se construyó sobre la antigua iglesia del Salvador. Fue construida como templo y fortaleza. En ella mandaban el alcaide del alcazar por ser fortaleza y el obispo por ser un templo. En el siglo 16 se trasladaron los restos de San Segundo que habían sido encontrados en otra iglesia de la ciudad. Ha jugado un papel importante en diversos acontecimientos históricos de la ciudad.",
+        "curiosities": "En la catedral reposan los restos mortales de Claudio Sánchez Albornoz (presidente de la II República en el exilio) y de Adolfo Suárez (presidente del gobierno de España de 1976 a 1981) y su esposa. Leyenda del amor (los pozos comunicantes): En la Edad media Madrona era una doncella que trabajaba de sirvienta en la mansión del Torreón. Jimeno era un mozo que trabajaba en la cercana Catedral. Madrona y Jimeno estaban enamorados. No podían verse porque sus familias eran enemigas. Un día Jimeno decidió quitarse la vida y se tiró al pozo de la Puerta Norte de la Catedral. Descubrió un pasadizo que comunicaba con el pozo del Torreón, por donde se asomaba Madrona. Los enamorados repetían su encuetro con frecuencia. Un día un familiar de Madrona, que descubrió que se veía con Jimeno, apuñaló a Madrona cuando estaba asomada al pozo, por el honor de su familia.",
+        "uses": "Para celebraciones religiosas y visitas turísticas.",
+        "images": [{"image": "img_avila_catedral1"},{"image": "img_avila_catedral2"},{"image": "img_avila_catedral3"},{ "image": "img_avila_catedral4"}],
+        "videos": [{"image": "img_avila_catedral1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/catedral/video2.mp4"},
+                   {"image": "img_avila_catedral2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/catedral/video3.mp4"}
+                  ],
+        "glossary": [
+          {
+            "name": "Claustro",
+            "definition": "Galería con columnas que rodea un jardín o un patio interior."
+          },
+          {
+            "name": "Sacristía",
+            "definition": "Sala de una iglesia donde se guardan las ropas y los objetos de culto y donde los sacerdotes se visten."
+          },
+          {
+            "name": "Sala capitular",
+            "definition": "Lugar de reunión de los miembros de una comunidad religiosa."
+          },
+          {
+            "name": "Girola",
+            "definition": "Pasillo estrecho que rodea la parte trasera del altar mayor de algunas iglesias o catedrales."
+          },
+          {
+            "name": "Piedra ferruginosa",
+            "definition": "Granito característico de la ciudad de Ávila. En la cantera tenía hierro y el óxido tiñó de color rojizo la piedra."
+          },
+          {
+            "name": "Crucero",
+            "definition": "Zona en que se cruzan el brazo mayor y el brazo menor de una iglesia."
+          },
+          {
+            "name": "Cimorro",
+            "definition": "Saliente de la parte de la cabecera de la catedral de Ávila."
+          },
+          {
+            "name": "Canónigo",
+            "definition": ": Sacerdote de una catedral"
+          },
+          {
+            "name": "Custodia",
+            "definition": "En la religión católica, donde se coloca la hostia después de ser consagrada."
+          },
+          {
+            "name": "San Segundo",
+            "definition": "Fue ordenado obispo en Roma en el añoa 63 y enviado con otros obispos a cristianizar España. Está considerado el primer obispo de Ávila. Es el patrón de la ciudad."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Iglesia de San Juan Bautista",
+        "image": "img_avila_san_juan",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.655782" ,
+            "longitude": "-4.7058346"
+          }
+        ],
+        "date": "Del siglo 12 al 16.",
+        "build": "La actual iglesia se debe a la reforma del siglo 16 diseñada por Martín de Solórzano con la ayuda económica de Fray Francisco Ruiz. Continuaron las obras de la iglesia otros arquitectos. La zona del presbiterio corresponde a la reforma para los enterramientos de Sancho Dávila y su mujer.",
+        "type": "Se comenzó en estilo románico. La mayor parte es de estilo gótico. La zona del presbiterio es de estilo renacentista. La cubierta es una bóveda que recibe la luz por dos lunetos y dos ventanas. Su decoración son los dibujos geométricos de la bóveda y la de los sepulcros de Sancho Dávila y su mujer. La iglesia tiene una nave central, con tres tramos desiguales que cubrieron con bóvedas de crucería estrellada. Tiene capillas irregulares en los laterales. En la fachada norte destaca la torre de ladrillo, levantada a finales del siglo 17. La puerta principal de la iglesia está situada al oeste. Su portada tiene arquivoltas decoradas con las típicas bolas abulenses y flores.",
+        "history": "Esta parroquia ha sido muy importante. Desde el siglo 13 se reunía bajo sus soportales el concejo de la ciudad cuando no existía el edificio del Ayuntamiento. En 1539 se instaló la campana llamada “zumbo” que marcaba las horas y el ritmo de la vida de los abulenses. Llevaba grabado el escudo de armas de la ciudad y dos cruces. El toque de esta campana también servía para convocar las reuniones del concejo.",
+        "curiosities": "Fue declarada Monumento Nacional en 1983. La pieza más antigua de la iglesia es la pila bautismal en la que fue bautizada Santa Teresa de Jesús. Es la sede de la Hermandad de Nuestra Sra. de La Esperanza cuya imagen puede verse en una de las capillas junto a la de Jesús de La Salud.",
+        "uses": "Para celebraciones religiosas y visitas turísticas.",
+        "images": [{"image": "img_san_juan1"},{"image": "img_san_juan2"}],
+        "videos": [{"image": "img_san_juan1", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video2.mp4"},
+                   {"image": "img_san_juan2", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video3.mp4"}
+        ],
+        "glossary": [
+          {
+            "name": "Sancho Dávila",
+            "definition": "Político español que tuvo un papel importante durante la Guerra Civil y los primeros años de la dictadura franquista."
+          },
+          {
+            "name": "Presbiterio",
+            "definition": "Espacio en torno al altar mayor de una iglesia que a veces está elevado."
+          },
+          {
+            "name": "Bóveda",
+            "definition": "Construcción arquitectónica en forma de arco que cubre el espacio entre dos muros o varias columnas."
+          },
+          {
+            "name": "Lunetos",
+            "definition": "Bóveda en forma de media luna que se utiliza para dar luz."
+          },
+          {
+            "name": "Arquivoltas",
+            "definition": "Moldura colocada alrededor de un arco."
+          },
+          {
+            "name": "Concejo",
+            "definition": "Grupo de personas que se encargan de administrar y gobernar un pueblo o ciudad."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Palacio Superunda",
+        "image": "img_avila_superunda",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/superunda/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6552844" ,
+            "longitude": "-4.7038405"
+          }
+        ],
+        "date": "Fue construido en 1580.",
+        "build": "Hubo varios canteros entre los que destaca Juan Vela que realizó las obras de la fachada.",
+        "type": "Es de estilo renacentista. Tiene planta cuadrada. Consta de dos plantas, dos torreones y un sotano. En la parte superior de la fachada hay tres balcones, bajo ellos dos ventanas con la puerta principal y una ventana en cada torreón. Hay varios escudos de la familia Ochoa Aguirre que fueron los primeros propietarios. En su interior hay un patio central alrededor del cual se disponen distintas dependencias. Del patio sale una escalera de piedra que nos lleva a la planta de arriba. Actualmente las habitaciones del palacio son salas de exposición. Hay algunas salas originales de la casa entre las que destacan la capilla, el salón, la sala de tapices y la cocina.",
+        "history": "Lo mandó construir el alcalde de Ávila Juan Ochoa de Aguirre. Años después el conde de Superunda heredó el palacio y le puso su nombre. El pintor italiano Guido Caprotti y su mujer compraron el palacio en 1954 para utilizarlo como vivienda familiar. Posteriormente lo donaron a la ciudad de Ávila.",
+        "curiosities": "Fue declarado monumento nacional en 1992. Se ha restaurado recientemente y en él se encuentran cuadros de distintos pintores como dos grandes retratos de Sorolla y uno de López Mezquita que hizo al propietario de la casa.",
+        "uses": "Es un palacio – museo propiedad del Ayuntamiento de Ávila que también se utiliza para actividades culturales.",
+        "images": [{"image": "img_avila_superunda1"},{"image": "img_avila_superunda2"},{"image": "img_avila_superunda3"}],
+        "videos": [{"image": "img_avila_superunda1", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/superunda/video2.mp4"},
+                   {"image": "img_avila_superunda2", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/superunda/video3.mp4"}
+                   ],
+        "glossary": [
+          {
+            "name": "Guido Caprotti",
+            "definition": "Fue un pintor italiano que nació en 1887 y vivió muchos años en el palacio de Superunda. Es importante porque pintó muchos cuadros de Ávila, en los que reflejó el alma de la ciudad y sus gentes."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Iglesia – Convento de Santa Teresa de Jesús",
+        "image": "img_avila_convento",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/la-santa/video1.mp4",        "localization": [
+          {
+            "latitude":"40.6554222" ,
+            "longitude": "-4.704915"
+          }
+        ],
+        "date": "Principios del siglo 17",
+        "build": "El arquitecto carmelita Fray Alonso de San José.",
+        "type": "De estilo barroco. La fachada tiene tres cuerpos. Destaca la imagen Santa Teresa en mármol, los escudos de su familia, la Orden de los carmelitas descalzos, el del Conde Duque de Olivares, el de Intendencia y el de Doctora de la Iglesia. Tiene planta de cruz latina. Con una nave central y capillas laterales. El altar mayor, en lugar de estar orientado hacia el este, como es lo habitual, se encuentra orientado hacia el norte porque se hizo coincidir con los aposentos donde nació Santa Teresa de Jesús. El altar cuenta con un retablo escultórico barroco. En el brazo derecho del crucero está la capilla del nacimiento de Santa Teresa de Jesús, que era una parte de la estancia de sus padres. Y enfrente se encuentra la huerta donde La Santa jugaba a construir ermitas. La mayoría de las esculturas del interior son de Gregorio Fernández.",
+        "history": "Fue construida sobre la casa donde nació Santa Teresa de Jesús. Los frailes carmelitas descalzos llegaron a Ávila y buscaron un lugar donde construir su convento. El Conde Duque de Olivares les ayudó a comprar la casa y construir el edificio actual. El edificio actual es un conjunto que incluye la iglesia, el convento, la sala de reliquias, el museo y otras dependencias.",
+        "curiosities": "Designado patrimonio de la humanidad y monumento histórico. En 2015, coincidiendo con los 500 años del nacimiento de La Santa se abrió una habitación dentro de la capilla del nacimiento con muebles que nos recuerdan a la epoca. Una de las puerta que hay en la fachada principal solo se abre cuando es año jubilar teresiano. Que se celebra cuando la fiesta de Santa Teresa, 15 de octubre, es domingo.",
+        "uses": "En la cripta que hay debajo de la iglesia se encuentra el museo teresiano. Hay una sala que contien sus reliquias. La iglesia se utiliza para celebraciones religiosas y visitas turísticas. El convento, además de ser el lugar en el que viven los frailes carmelitas, también tiene un albergue.",
+        "images": [{"image": "img_avila_convento1"},{"image": "img_avila_convento2"},{"image": "img_avila_convento3"}],
+        "videos": [{"image": "img_avila_convento1", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/la-santa/video2.mp4"},
+                   {"image": "img_avila_convento2", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/la-santa/video3.mp4"}
+        ],
+        "glossary": [
+          {
+            "name": "Orden Carmelitas Descalzos",
+            "definition": "Grupo de religiosos católicos."
+          },
+          {
+            "name": "Doctora de la Iglesia",
+            "definition": "Título dado por el Papa a algunos santos para reconocer su labor religiosa."
+          },
+          {
+            "name": "Aposento",
+            "definition": "Habitación de una casa."
+          },
+          {
+            "name": "Santa Teresa de Jesús",
+            "definition": "Religiosa que nació en Ávila en 1515. Fundó la Orden de las Carmelitas Descalzas. Fue nombrada Santa y Doctora de la Iglesia."
+          },
+          {
+            "name": "Retablo",
+            "definition": "Estructura que se sitúa detrás del altar en las iglesias católicas. Puede tener esculturas y/o pinturas."
+          },
+          {
+            "name": "Crucero",
+            "definition": "Zona en que se cruzan el pasillo largo y el pasillo corto de una iglesia."
+          },
+          {
+            "name": "Gregorio Fernández",
+            "definition": "Escultor importante del Barroco."
+          },
+          {
+            "name": "Cripta",
+            "definition": "Espacio que se encuentra debajo de una iglesia destinado al culto y donde se hacen enterramientos."
+          },
+          {
+            "name": "Reliquia",
+            "definition": "Parte del cuerpo de una persona o algún objeto suyo que se conserva y se le hace homenaje religioso."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "city": "Avila",
+    "video": "",
+    "image": "img_avila_san_jose_madres",
+    "name": "Fundamem",
+    "description": "Descubre los tesoros de la ruta Fundamem. A continuación te mostramos el itinerario que integra esta ruta, haciendo un desglose de cada uno de los monumentos que lo componen. ",
+    "duration": "24' a pie",
+    "monuments": [
+      {
+        "id": 7,
+        "name": "Convento de San José",
+        "image": "img_avila",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-jose/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6551338" ,
+            "longitude": "-4.694127"
+          }
+        ],
+        "date": "El convento se fundó el 24 de agosto de 1562.",
+        "build": "",
+        "type": "El convento de San José era un conjunto de casas que se unieron, y una pequeña iglesia. La capilla, que existe, era la primera iglesia del convento. Entre 1608-1615, Francisco de Mora, construyó otra iglesia ,con el mismo modelo que usarían otras iglesias carmelitas, se caracterizan por la sencillez y austeridad. La iglesia tiene una planta alargada con una sola nave , a cada lado de la nave hay tres capillas.",
+        "history": "El convento de San José es el primer convento fundado por Santa Teresa. Necesitó la ayuda económica, para realizar las obras, de familiares, amigos, nobles y religiosos. Las primeras monjas entraron a vivir en verano de 1562. Santa Teresa vivió varios años en este convento. Actualemente se conservan las antiguas dependencias conventuales, que permiten imaginar cómo era aquel primer convento de la reforma y el espíritu de Santa Teresa: cocina, refectorio, celda de la santa, claustro, campana fundacional. Tambien está la escalera del diablo que tiene su propia leyenda. Varios de estos elementos pueden verse en el museo del convento. Santa Teresa creia que las monjas debian vivir con muy pocas cosas y cumplir con las normas de pobreza. Es declarado Monumento Nacional en 1968.",
+        "curiosities": "Se cuenta que Santa Teresa se cayó por una escalera en Navidad y se rompió el hombro, pensó que era el diablo el que la había empujado y por eso se llama la escalera del diablo. La leyenda del Cristo de los Piojos cuenta que, en el Convento de San José, las monjas pidieron para su hábito una tela áspera y rústica para guardar la pobreza,este tipo de tela atraía muchísimo a los piojos.Una noche hicieron una procesión con velas encendidas desde sus celdas hacia el coro, presididas por la imagen de un Cristo en la Cruz. La santa estuvo de rodillas ante el Santísimo hasta que Nuestro Señor Jesucristo le concedió el favor y los piojos dejaron los vestidos de las religiosas y nunca más volvieron a molestarlas. A este Cristo se le llama “El Cristo de los piojos”. La campana original del convento está rota, se compró así porque no había mucho dinero.",
+        "uses": "Culto, turismo y convento de clausura.",
+        "images": [{"image": "img_avila_san_jose_madres1"},{"image": "img_avila_san_jose_madres2"},{"image": "img_avila_san_jose_madres3"},{"image": "img_avila_san_jose_madres4"},{"image": "img_avila_san_jose_madres5"},{"image": "img_avila_san_jose_madres6"},{"image": "img_avila_san_jose_madres7"},{"image": "img_avila_san_jose_madres8"}],
+        "videos": [{"image": "img_avila_san_jose_madres1","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-jose/video1.mp4"},
+                   {"image": "img_avila_san_jose_madres2","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-jose/video2.mp4"}
+                 ],
+        "glossary": [
+          {
+            "name": "Iglesias carmelitas",
+            "definition": "Perteneciente a la orden del Carmen que sigue el estilo de la iglesia de san José, que fue la primera."
+          },
+          {
+            "name": "Austeridad",
+            "definition": "Sin adornos."
+          },
+          {
+            "name": "Dependencias conventuales",
+            "definition": "Todas las habitaciones del convento."
+          },
+          {
+            "name": "Refectorio",
+            "definition": "Comedor."
+          },
+          {
+            "name": "Hábito",
+            "definition": "Ropa de las monjas."
+          },
+          {
+            "name": "Celda",
+            "definition": "Habitación donde se duerme."
+          },
+          {
+            "name": "Claustro",
+            "definition": "Pasillo con columnas que rodea un jardín o patio interior."
+          },
+          {
+            "name": "string",
+            "definition": "Basta, ruda."
+          },
+          {
+            "name": "Coro",
+            "definition": "Espacio de la iglesia que se usa para rezar o cantar."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Basílica de los hermanos martiles Vicente, Sabina y Cristeta. El Humilladero",
+        "image": "img_avila_elhumilladero",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-vicente-y-el-humilladero/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6580638" ,
+            "longitude": "-4.6981859"
+          }
+        ],
+        "date": "Durante el siglo 12 se construyo la basílica de San Vicente. El Humilladero fue construida en 1594.",
+        "build": "No se sabe con seguridad.",
+        "type": "La basílica es de estilo románico. Está hecha piedra arenisca. Tiene forma de cruz latina, con tres naves , tres ábsides y tres puertas La basílica de San Vicente se construyó encima del lugar donde fueron enterrados los martires. En ese lugar se encontró la imagén de la Virgen de la Soterraña, que era la patrona de Ávila. Lo más importante es el cenotafío, donde hay imágenes en relieve con la historia de los 3 santos. El humilladero es de planta cuadrada, de estilo renancentista. Tiene dos esculturas muy importantes: el Cristo de los Ajusticiados y la Santa Cruz.",
+        "history": "El emperador Diocleciano ordenó perseguir y matar a los cristianos de Hispania. Vicente, Sabina y Cristeta fueron los primero cristianos de Ávila. La basílica se construyó en su honor.Es declarada monumento nacional en 1923. El humilladero está cerca de San Vicente. Es la sede de la hermandad penitencial más antigua de Ávila.Era un lugar donde la gente se arrodillaba a rezar a las afueras de la ciudad.La cofradia se funda inicialmenre en el convento de San Francisco, hoy Auditorio Municipal, y cuando se construyó el Humilladero se trasladó a ese lugar.",
+        "curiosities": "Hay dos leyendas muy importantes en la Basílica de San Vicente. La primera es la huella que dejó la mula que llevaba a San Pedro del Barco.La mula dio un golpe con la pezuña y cayó muerta, marcando la losa donde debería reposar el santo. La segunda cuenta que un judio se burlaba de los hermanos mientras los martirizaban. De pronto salió una serpiente de la tierra y le atacó, entonces se lamentó de lo ocurrido ,juró convertirse al cristianismo y hacer un sepulcro para los martires. En el centro de La Santa Cruz hay un relicario con un trozo de la cruz de Cristo, a los laterales hay reliquias de otros santos. Se llama el Cristo de los Ajusticiados porque era el que acompañaba a los reos a muerte.",
+        "uses": "Se usa para lugar de culto y turismo.",
+        "images": [{"image": "img_avila_elhumilladero1"},{"image": "img_avila_elhumilladero2"},{"image": "img_avila_elhumilladero3"},{"image": "img_avila_elhumilladero4"},{"image": "img_avila_elhumilladero5"},{"image": "img_avila_elhumilladero6"}],
+        "videos": [{"image": "img_avila_elhumilladero1","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-vicente-y-el-humilladero/video1.mp4"},
+          {"image": "img_avila_elhumilladero2","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-vicente-y-el-humilladero/video2.mp4"}
+        ],
+        "glossary": [
+          {
+            "name": "Cruz latina",
+            "definition": "Cruz que tiene un lado más largo que los otros tres."
+          },
+          {
+            "name": "Ábsides",
+            "definition": "Altares."
+          },
+          {
+            "name": "Cenotafío",
+            "definition": "Tumba vacia dedicada a una persona muerta importante."
+          },
+          {
+            "name": "Hispania",
+            "definition": "Nombre romano de la península."
+          },
+          {
+            "name": "Hermandad penitencial",
+            "definition": "Es una cofradia que tiene relación con la Semana Santa."
+          },
+          {
+            "name": "Martirizar",
+            "definition": "Torturar, hacer sufrir mucho a una persona."
+          },
+          {
+            "name": "Reliquia",
+            "definition": "Parte del cuerpo, de la vestimenta u objeto de un santo."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Monasterio de la encarnación",
+        "image": "img_avila_encarnacion",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6646073" ,
+            "longitude": "-4.7297045"
+          }
+        ],
+        "date": "Se terminó la construcción en 1515.",
+        "build": "",
+        "type": "Está compuesto de dos construcciones, el convento y la iglesia. El monasterio es renacentista, se distribuye en dos plantas alrededor de un claustro central. La iglesia es barroca, tiene planta de cruz latina. La fachada sur del monasterio tiene una espadaña.",
+        "history": "El monasterio es un convento de clausura de monjas carmelitas. Se construyó sobre unos terrenos adquiridos al Cabildo, antes había sido el cementerio judío Solo se puede visitar el museo, está en la parte antigua del convento, y la iglesia. A finales del siglo16, la celda que ocupó Teresa de Jesús se destina a oratorio y más tarde a capilla, la ponen de nombre la capilla de la Transverberación. Este Monasterio es uno de los lugares más importantes de la vida de Santa Teresa. Ingresó en el convento sin el permiso de su padre, en el estuvo más de 30 años.Aquí preparó la Reforma del Carmelo. El Convento tiene un museo teresiano. Una de las obras más importantes es un dibujo realizado por San Juan de la Cruz que representa a Cristo en la Cruz. Fue declarado Monumento Nacional en 1983.",
+        "curiosities": "Se cuenta que Santa Teresa de Jesús, yendo un día por las escaleras del Monasterio, se le aparecio un hermoso Niño. Sorprendida por ver un niño dentro de la clausura del convento, se dirigió a él preguntándole:- ¿Y tú quién eres?. El niño le replicó a su vez con otra pregunta: -¿Y quién eres tú?. La madre respondió: -Yo, Teresa de Jesús. Y el niño sonriente le repuso: -Pués yo soy, Jesús de Teresa.",
+        "uses": "Para convento de clausura, culto y turismo.",
+        "images": [{"image": "img_avila_encarnacion1"},{"image": "img_avila_encarnacion2"},{"image": "img_avila_encarnacion3"}],
+        "videos": [{"image": "img_avila_encarnacion1","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video1.mp4"},
+          {"image": "img_avila_encarnacion2","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video2.mp4"}],
+        "glossary": [
+          {
+            "name": "Renacentista",
+            "definition": "Estilo de construcción con poca decoración y muchas líneas rectas."
+          },
+          {
+            "name": "Claustro",
+            "definition": "Es el conjunto de un patio interior y el pasillo con columnas que los rodea."
+          },
+          {
+            "name": "Barroca",
+            "definition": "Estilo que tiene muchos adornos."
+          },
+          {
+            "name": "Espadaña",
+            "definition": "Campanario que tiene una sola pared, en la que están abiertos los huecos para colocar las campanas."
+          },
+          {
+            "name": "Cabildo",
+            "definition": "Es un órgano de gobierno, en la catedral de Ávila el cabildo está formado por los curas que trabajan allí."
+          },
+          {
+            "name": "Oratorio",
+            "definition": "Habitación que tiene un altar para rezar."
+          },
+          {
+            "name": "Capilla",
+            "definition": "Es un tipo de oratorio para más personas."
+          },
+          {
+            "name": "Transverberación",
+            "definition": "Transpasar parte del cuerpo con un arma.La transverberacio, según la iglesia católica, es un fenómeno en el cual la persona que logra una unión íntima con Dios, siente traspasado el corazón por un fuego sobrenatural."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Ermita de san segundo, puente romano y cuatro postes",
+        "image": "img_avila_cuatro_postes",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6579054" ,
+            "longitude": "-4.7097659"
+          }
+        ],
+        "date": "La ermita de San Segundo fue construida a principios del siglo 12. El puente romano , situado al lado de la ermita, es del siglo 3. Los Cuatro Postes se construyeron en 1566.",
+        "build": "Francisco de Arellano fue el constructor de los Cuatro Postes",
+        "type": "La ermita de San Segundo es de granito caleño, de estilo románico.Tiene 3 naves, la central es más ancha que las laterales y acaba en 3 absides. Destacan la cabecera y la portada sur. Es importante el sepulcro de San Segundo, del siglo 16, realizado en alabastro por el escultor Juan de Juni. El puente romano tiene 5 arcos y cuatro pilares con tajamar. Los cuatro postes está formado por cuatro columnas dóricas en la que apoya un arquitrabe. En el centro hay una cruz, inicialmente se tenia pensado poner una escultura de San Sebastián.",
+        "history": "Al principio, la ermita de San Segundo, estaba dedicada a San Sebastian y Santa Lucia. En el siglo 16 unos obreros se encontraron en uno de sus muros una caja que tenía huesos de un cuerpo humano y algunos objetos, se cree que eran de San Segundo, primer obispo de Ávila . Es declarada monumento nacional en 1923. El puente romano se construyó para facilitar el paso del rio. Los Cuatro Postes es un humilladero.. Es un monumento religioso desde donde se tienen las mejores vistas de Ávila.",
+        "curiosities": "El día 2 de mayo es la romería a San Segundo,la costumbre es ir a la ermita a meter un pañuelo de tela en un hueco, que hay debajo de la sepultura del santo, para pedir 3 deseos. La leyenda de Santa Paula de Barbada cuenta que esta mujer era muy bella y venía todos los días desde Cardeñosa a la ciudad de Ávila, cruzaba el puente del rio Adaja. Un día un chico la persiguió hasta la ermita, Santa Paula pidió a Dios que cambiase su aspecto para que no la reconociera, se cree que le creció una gran barba. Cuando salió el chico le preguntó si habia alguien más en la ermita, y ella le contestó que no.Está enterrada en la ermita de San Segundo.",
+        "uses": "La iglesía se usa actualmernte para lugar de culto, no suele estar abierta al público. Los cuatro postes y el puente romano se usan para turismo.",
+        "images": [{"image": "img_avila_cuatro_postes1"},{"image": "img_avila_cuatro_postes2"},{"image": "img_avila_cuatro_postes3"},{"image": "img_avila_cuatro_postes4"},{"image": "img_avila_cuatro_postes5"},{"image": "img_avila_cuatro_postes6"},{"image": "img_avila_cuatro_postes7"},{"image": "img_avila_cuatro_postes8"}],
+        "videos": [{"image": "img_avila_cuatro_postes1","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-segundo-puente-romano-4-postes/video1.mp4"},{"image": "img_avila_cuatro_postes2","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-segundo-puente-romano-4-postes/video2.mp4"},
+                   {"image": "img_avila_cuatro_postes3","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-segundo-puente-romano-4-postes/video3.mp4"}],
+        "glossary": [
+          {
+            "name": "Constructor",
+            "definition": "Persona que hace una obra."
+          },
+          {
+            "name": "Granito caleño",
+            "definition": "Se saca de las canteras de la Colilla, es una piedra arenisca de tonos amarillentos y anaranjados."
+          },
+          {
+            "name": "Románico",
+            "definition": "Es un estilo de construcción de la época medieval, los edificios son bajos, paredes gruesas y ventanas pequeñas."
+          },
+          {
+            "name": "Absides",
+            "definition": "Altares."
+          },
+          {
+            "name": "Tajamar",
+            "definition": "Construcción curva o en forma de ángulo que se añade a los pilares de un puente para cortar la corriente de agua o repartir la presión de la misma."
+          },
+          {
+            "name": "Dóricas",
+            "definition": "Tipo de columna sin decoración."
+          },
+          {
+            "name": "Arquitrabe",
+            "definition": "Piedras que se ponen encima de las columna donde luego se puede apoyar el tejado."
+          },
+          {
+            "name": "Humilladero",
+            "definition": "Lugar, que hay en la entrada de algunos pueblos y junto a caminos, con una imagen o con una cruz, que se usa para rezar."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Fundamem: La Muralla de Ávila",
+        "image": "img_avila_muralla",
+        "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-muralla/video1.mp4",
+        "localization": [
+          {
+            "latitude":"40.6576166" ,
+            "longitude": "-4.7059678"
+          }
+        ],
+        "date": "La muralla se comenzó a construir a finales del siglo 11",
+        "build": "Tuvo 3 arquitectos: el italiano Casandro Colonio, el francés Florín de Pituenga y el español Alvar García.",
+        "type": "La muralla tiene 2 kilómetros y medio de largo, 9 puertas, 87 torreones y 2 postigos. Se comenzó su construcción por el lado este, es la parte más llana y más dificil de defender.Los muros son más anchos y más altos. Las piedras se sacaron de los alrededores de la ciudad y las rocas del terreno se usaron como base. Tambien se usaron lápidas de los romanos y restos de la muralla romana. Usaron la técnica del espejo, dos paredes de piedra casi juntas y el espacio entre ellas relleno de piedras más pequeñas, argamasa y trozos de otros materiales. ",
+        "history": "Fueron muchas las personas que ayudaron a construirla y mantenerla, tanto cristianos como judios y mudéjares. Ha sido reparada a lo largo de la historia modificándose la estructura de alguna de sus puertas. Los cristianos trabajaban la piedra, son los canteros. Los judios ponian el hierro. Los mudéjares usaron ladrillos decorativos en alguna partes de la muralla.",
+        "curiosities": "En 1985 entró en la lista del Patrimonio Mundial de la UNESCO. La Puerta del Peso de la Harina: está junto a la Casa de las Carnicerías. Los abulenses compraban la carne en la Casa de las Carnicerías. A esta puerta también se le llama Puerta de los Leales. Los reyes reconocieron a los habitantes de Ávila como leales a ellos. La puerta está entre 2 torres. En el centro hay 2 grandes entradas. Una es la entrada a la ciudad. La otra es la entrada a la Casa de las Carnicerías. La Casa de las Carnicerías es hoy una oficina de turismo. Desde aquí se puede subir a la muralla. Actualmente se puede pasear por todo el adarve que va desde esta puerta hasta la puerta del puente. La Puerta del Alcázar era la más cercana al antiguo castillo y por eso tiene un carácter más defensivo. Desde esta puerta se puede subir al adarve. La Puerta del Alcázar esta frente a la Plaza de Santa Teresa, también llamada Mercado Grande. Esta plaza es el centro de Ávila. La Puerta del Rastro: En la puerta se hizo después un arco y una galería de columnas. La galería de columnas es del Palacio de los Dávila. Esta galería es conocida por la leyenda de Don Alvar y Doña Guiomar. Esta leyenda cuenta que Don Alvar Dávila Capitán y Señor de Sotalbo, se enamoró de Doña Guiomar, la hija de Don Diego Zúñiga, cuando la vio asomada en la ventana del palacio donde vivía. Se vieron en varias ocasiones, pero siempre a través de aquella ventana. Don Alvar Dávila le dijo al padre de Guiomar que se quería casar con ella. Pero este le dijo que no y le prohibió que volviera a verla. Don Alvar construyó en Sotalbo un castillo conocido como “Manqueospese la veré”. Desde el castillo podía ver a Doña Guiomar y comunicarse con ella a través de humo o de pañuelos. Un día Doña Guiomar murió y su alma fue al castillo de Don Alvar. Él fue a la guerra y murió. Dicen que se dejó morir para encontrarse con su amada. La Puerta de La Santa: debe su nombre a Santa Teresa. La puerta es la entrada a la plaza de la Santa. En la plaza hay ahora un convento de frailes carmelitas. En el mismo sitio estuvo la casa donde nació Santa Teresa. La puerta tiene 2 torres cuadradas. Entre las torres hay un matacán. La Puerta de la Malaventura es la puerta más pequeña de la muralla. Por esta puerta se llega al antiguo barrio judío, llamado judería. Ahora hay un jardín de plantas aromáticas, que está dedicado al estudioso judío Moshé de León. El nombre de la Puerta de la Malaventura viene de una leyenda, “El Rey Niño”. Esta leyenda cuenta que el rey Alfonso de Aragón quiso quedarse con el hijo que su esposa Doña Urraca tuvo con su anterior marido. Los nobles de Ávila lo impidieron y protegieron al niño. Ese niño iba a ser el rey de Castilla unos años después. El rey quería ver al niño y aceptó entrar en Ávila para verlo. A cambio, 60 jóvenes de la ciudad debían quedarse en manos de su ejército. El rey quería asegurarse de que los nobles de Ávila no le iban a matar. Cuando volvió con su ejército, el rey ordenó cortar la cabeza a los 60 jóvenes de Ávila y hervirlas en agua. Aquel lugar pasó a denominarse y aún sigue nombrándose así, Las Hervencias, al norte de la ciudad. La puerta de San Vicente se llama así por estar enfrente de la Basílica de San Vicente. En esta zona de la muralla se desarrolla la leyenda de San Pedro del Barco.San Pedro fue un ermitaño, cuando murio habia varios pueblos que querian su cuerpo, se decidió subirlo a una mula y donde el animal muriera allí se enterraria.Dicen que llegó hasta la Basílica de San Vicente donde dejó su huella. A la mula la enterraron enfrente de la iglesia, debajo del cubo de la mula, por eso lleva su nombre. La puerta del Mariscal tiene este nombre porque vivía en el palacio que encontramos al lado de la puerta Don Álvaro Dávila, mariscal del rey Juan II de Castilla. La puerta del Carmen tiene este nombre por un antiguo convento. Hoy lo que era el convento es el archivo provincial.Enfrente está el Parador de Turismo .Esta puerta se caracteriza por la espadaña de ladrillo que tiene encima. La puerta del puente está enfrente del puente romano que cruza el rio Adaja.En esta zona estaban las industrias de los tejidos, molineros, aguadores… Actualmente es muy importante porque está la entrada a la parte de la muralla para personas con movilidad reducida.",
+        "uses": "Se dedica al turismo.",
+        "images": [{"image": "img_avila_muralla1"},{"image": "img_avila_muralla2"},{"image": "img_avila_muralla3"}],
+        "videos": [{"image": "img_avila_muralla1","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-muralla/video1.mp4"},
+                   {"image": "img_avila_muralla2","link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-muralla/video2.mp4"}
+        ],
+        "glossary": [
+          {
+            "name": "Arquitecto",
+            "definition": "Persona que dirige las obras y hace los planos."
+          },
+          {
+            "name": "Torreón",
+            "definition": "También se puede llamar cubo."
+          },
+          {
+            "name": "Postigo",
+            "definition": "Puerta pequeña en la muralla."
+          },
+          {
+            "name": "Lápida",
+            "definition": "Es una piedra plana que normalmente tiene un texto escrito."
+          },
+          {
+            "name": "Argamasa",
+            "definition": "Mezcla de tierra, arena, piedra y paja. Se parece al cemento."
+          },
+          {
+            "name": "Adarve",
+            "definition": "Camino por donde se anda sobre la muralla."
+          },
+          {
+            "name": "UNESCO",
+            "definition": "Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura."
+          },
+          {
+            "name": "Leales",
+            "definition": "Personas de confianza."
+          },
+          {
+            "name": "Alcazar",
+            "definition": "Antiguo castillo de la ciudad."
+          },
+          {
+            "name": "Matacán",
+            "definition": "Parte saliente de la muralla con huecos para tirar piedras o líquidos calientes al atacante."
+          },
+          {
+            "name": "Mudéjar",
+            "definition": "Mulsumanes que vivian en las ciudades cristianas"
+          },
+          {
+            "name": "Ermitaño",
+            "definition": "Persona religiosa que vive sola, aislada."
+          },
+          {
+            "name": "Basílica",
+            "definition": "Es una iglesia más grande, donde se podian nombrar caballeros."
+          },
+          {
+            "name": "Mariscal",
+            "definition": "Militar importante"
+          },
+          {
+            "name": "Espadaña",
+            "definition": "Campanario que tiene una sola pared, en la que están abiertos los huecos para colocar las campanas."
+          }
+        ]
+      }
+    ]
+  }
+]
+

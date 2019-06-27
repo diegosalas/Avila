@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Fundación Ávila</string>
+    <string name="label_map">Mapa</string>
+    <string name="label_view">Qué ver</string>
+    <string name="label_search">¿Qué ver en Ávila?</string>
+    <string name="label_settings">Configuración</string>
+    <string name="label_guia">Guía digital</string>
+    <string name="label_ciudades">Cuidades</string>
+    <string name="label_humanidad">Patrimonio de la Humanidad</string>
+    <string name="subtitle">¿Qué ciudad vas a visitar?</string>
+    <string name="todo">TODO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_map">Map</string>
+    <string name="lable_view">View</string>
+    <string name="lable_settings">Settings</string>
+    <string name="label_viewt">View</string>
+    <string name="ruta_downavila">Ruta Downavila</string>
+    <string name="route_detail">Descubre los tesoros de Ávila. A continuación te mostramos el itinerario que integra
+        esta ruta, haciendo un desglose de cada uno de los monumentos que lo componen.
+    </string>
+    <string name="monuments">Monumentos</string>
+    <string name="this_is_your_intinerary">Este es tu intinerario</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="monument_title_under_video1">Catedral II/III</string>
+    <string name="monument_title_under_video2">Catedral II/III</string>
+    <string name="example_data_monument1">Tuvo 3 arquitectos: el italiano Casandro Colonio, el francés Florín de
+        Pituenga y el español Alvar García.
+    </string>
+    <string name="example_data_monument_build">¿Quién lo construyó?</string>
+    <string name="example_data_monument_date">La muralla se comenzó a construir a finales del siglo 11.</string>
+    <string name="TextViewDate">Fecha construcción</string>
+    <string name="example_data_monument_description">La muralla tiene 2 kilómetros y medio de largo, 9 puertas, 87
+        torreones y 2 postigos. Se comenzó su construcción por el lado este, es la parte más llana y más dificil de
+        defender. Los muros son más anchos y más altos. Las piedras se sacaron de los alrededores de la ciudad y las
+        rocas del terreno se usaron como base. Tambien se usaron lápidas de los romanos y restos de la muralla romana.
+        Usaron la técnica del espejo, dos paredes de piedra casi juntas y el espacio entre ellas relleno de piedras más
+        pequeñas, argamasa y trozos de otros materiales.
+    </string>
+    <string name="example_data_monument_type">Tipo de construción: Estilo</string>
+    <string name="example_data_monument2">Fueron muchas las personas que ayudaron a construirla y mantenerla, tanto
+        cristianos como judios y mudéjares. Ha sido reparada a lo largo de la historia modificándose la estructura de
+        alguna de sus puertas. Los cristianos trabajaban la piedra, son los canteros. Los judios ponian el hierro. Los
+        mudéjares usaron ladrillos decorativos en alguna partes de la muralla.
+    </string>
+    <string name="example_data_monument_descriptio">Fueron muchas las personas que ayudaron a construirla y mantenerla,
+        tanto cristianos como judios y mudéjares. Ha sido reparada a lo largo de la historia modificándose la estructura
+        de alguna de sus puertas. Los cristianos trabajaban la piedra, son los canteros. Los judios ponian el hierro.
+        Los mudéjares usaron ladrillos decorativos en alguna partes de la muralla.
+    </string>
+    <string name="example_data_monument_couriosities">Curiosidades o leyenda</string>
+    <string name="history">Historia</string>
+    <string name="monument_title">Catedral del Salvador</string>
+    <string name="example_data_monument_uses">Se dedica al turísmo.</string>
+    <string name="uses_label">¿Para qué se usa actualmente?</string>
+
+    <string name="more_videos">Más videos de</string>
+    <string name="monument_title2">Catedral de Salvador</string>
+    <string name="title_activity_play_full_video">PlayFullVideoActivity</string>
+
+</resources>

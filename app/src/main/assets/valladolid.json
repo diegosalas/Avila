@@ -1,0 +1,371 @@
+[{
+  "id" : 1,
+  "city": "Valladolid",
+  "image": "img_valladolid",
+  "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/Ruta+1+-+DownValladolid/Academia+de+caballeria/videos/ACADEMIA+(A%C3%B1o)+(1).mp4",
+  "name" : "DownValladolid",
+  "description": "Descubre los tesoros de la ruta Valladolid. A continuación te mostramos el itinerario que integra esta ruta, haciendo un desglose de cada uno de los monumentos que lo componen.",
+  "duration": "20' a pie",
+  "monuments": [
+    { "id" : 1,
+      "name": "Academia de caballería",
+      "image": "img_valladolid_caballeria",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/academia-de-caballeria/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6479927" ,
+          "longitude": "-4.7327605"
+        }
+      ],
+      "date": "1920 se construyó el edificio actual.",
+      "build": "Fue un proyecto del Capitán de ingenieros D. José de la Gándara y Cividanes.",
+      "type": "Neoplateresco.",
+      "history": "Se construyó para usarse como prisión. Después se decidió trasladar la cárcel al Monasterio del Prado. Está inspirado en las formas del Palacio de Monterrey de Salamanca.En 1930 el Museo de Caballería se establece. En 1933 se crea el Museo del Ejército.",
+      "curiosities": "Iba a ser una cárcel pero finalmente se convirtió en una academia de caballería.",
+      "uses": "Para que los futuros militares estudien También es un Museo del ejército.",
+      "images": [{"image": "img_valladolid_caballeria1"},{"image": "img_valladolid_caballeria2"},{"image": "img_valladolid_caballeria3"},{"image": "img_valladolid_caballeria4"},{"image": "img_valladolid_caballeria5"}],
+      "videos": [ {"image": "img_valladolid_caballeria1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/academia-de-caballeria/video1.mp4"},
+        {"image": "img_valladolid_caballeria2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/academia-de-caballeria/video2.mp4"},
+        {"image": "img_valladolid_caballeria3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/academia-de-caballeria/video3.mp4"},
+        {"image": "img_valladolid_caballeria4", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/academia-de-caballeria/video1.mp4"}
+        ],
+      "glossary": [
+        {
+          "name": "Prisión",
+          "definition": "Cárcel"
+        }
+      ]
+
+    },
+    { "id" : 2,
+      "name": "Campo grande",
+      "image": "img_valladolid_campo_grande",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/campo-grande/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6452204" ,
+          "longitude": "-4.7352294"
+        }
+      ],
+      "date": "1787.",
+      "build": "Arquitectos Julio Saracíbar y Fidel Recio Mantilla.",
+      "type": "Es un gran parque público ubicado en pleno centro de la ciudad de Valladolid.",
+      "history": "Escomo un espacio urbano de gran importancia. Un aspecto importante del parque es la cantidad de tipos aves que hay. Encontramos una faisanera, una pajarera y un palomar. También hay una gran variedad de árboles que constituyen un verdadero jardín botánico.",
+      "curiosities": "Cuenta con un lago donde un barquero llamado el “Tio Catarro”se dedicó a hacer viajes en su barca.",
+      "uses": "Parque.",
+      "images": [{"image": "img_valladolid_campo_grande1"},{"image": "img_valladolid_campo_grande2"},{"image": "img_valladolid_campo_grande3"},{"image": "img_valladolid_campo_grande4"},{"image": "img_valladolid_campo_grande5"},{"image": "img_valladolid_campo_grande6"},{"image": "img_valladolid_campo_grande7"}],
+      "videos": [ {"image": "img_valladolid_campo_grande1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/campo-grande/video1.mp4"},
+        {"image": "img_valladolid_campo_grande2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/campo-grande/video2.mp4"},
+        {"image": "img_valladolid_campo_grande3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/campo-grande/video3.mp4"}
+       ],
+      "glossary": [
+        {
+          "name": "Urbano",
+          "definition": "Que pertenece a la ciudad"
+        },
+        {
+          "name": "Faisanera",
+          "definition": "Jaulas para pájaros"
+        },
+        {
+          "name": "Pajarera",
+          "definition": "Conjuntos de jaulas para pájaros"
+        },
+        {
+          "name": "Palomar",
+          "definition": "Jaulas de palomas"
+        },
+        {
+          "name": "Jardín botánico",
+          "definition": "Lugar donde se cultivan plantas"
+        }
+      ]
+
+    },
+    {
+      "id" : 3,
+      "name": "San benito",
+      "image": "img_valladolid_san_benito",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-benito/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6543824" ,
+          "longitude": "-4.7315139"
+        }
+      ],
+      "date": "Se construyó en 1499 a 1515.",
+      "build": "Lo diseñaron Juan de Arandia y García de Olave.",
+      "type": "Gótico Isabelino, Renacimiento.",
+      "history": "Fue construida sobre el antiguo Alcázar Real. La fachadaes posterior y fue diseñada por Rodrigo Gil de Hontañón. La torrede la Iglesia era más alta antiguamente. Pero fue derribada en el siglo XIX Entre los tesoros que se encuentran en la iglesia son el Retablo de San Benito el Real de Valladolid.",
+      "curiosities": "La iluminación de la iglesia se consigue mediante ventanas en la pared.",
+      "uses": "Es una iglesia.",
+      "images": [{"image": "img_valladolid_san_benito1"},{"image": "img_valladolid_san_benito2"},{"image": "img_valladolid_san_benito3"}],
+      "videos": [ {"image": "img_valladolid_san_benito1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-benito/video1.mp4"},
+                  {"image": "img_valladolid_san_benito2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-benito/video2.mp4"},
+                  {"image": "img_valladolid_san_benito3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-benito/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Fachada",
+          "definition": "Pared"
+        },
+        {
+          "name": "Retablo",
+          "definition": "Obra de arte pintada en madera"
+        }
+      ]
+
+    },
+    { "id" : 4,
+      "name": "Museo Patio Herreriano.",
+      "image": "img_valladolid_herreriano",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/patio-herreriano/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6546863" ,
+          "longitude": "-4.7323559"
+        }
+      ],
+      "date": "Se inauguró en el año 2002.",
+      "build": "Ángel Ferrant y con el apoyo del Ayuntamiento de Valladolid.",
+      "type": "Se ubica en uno de los claustros del antiguo monasterio de San Benito.",
+      "history": "Fue inaugurado en 2002. Es un centro de arte de la ciudad de Valladolid. En él se  exponen  importantes obras de estilo contemporáneo. Las obras son de  colecciones privadas del año 1918 y la actualidad.",
+      "curiosities": "El proyecto estuvo nominado al Premio Mies Van der Rohe en el año 2003.",
+      "uses": "Expone actualmente obras de arte contemporáneo.",
+      "images": [{"image": "img_valladolid_herreriano1"},{"image": "img_valladolid_herreriano2"},{"image": "img_valladolid_herreriano3"}],
+      "videos": [ {"image": "img_valladolid_herreriano1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/patio-herreriano/video1.mp4"},
+        {"image": "img_valladolid_herreriano2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/patio-herreriano/video2.mp4"},
+        {"image": "img_valladolid_herreriano3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/patio-herreriano/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Claustro",
+          "definition": "Conjunto de columnas alrededor de un jardín"
+        },
+        {
+          "name": "Contemporáneo",
+          "definition": "Época actual"
+        }
+      ]
+
+    },
+    { "id" : 5,
+      "name": "Archivo municipal",
+      "image": "img_valladolid_archivo_municipal",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/archivo-municipal/Video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6552954" ,
+          "longitude": "-4.7413826"
+        }
+      ],
+      "date": "1191.",
+      "build": "Juan de Herrera.",
+      "type": "Estilo gótico y clasicista.",
+      "history": "En el archivo están los documentos de la ciudad desde la edad media hasta ahora Allí se firmó el Tratado de Londres en el año 1604. En la Guerra de la Independencia, las tropas francesas lo usaban como albergue. En 1999 se restauró.",
+      "curiosities": "Conserva pergaminos medievales.",
+      "uses": "Conserva documentación de los órganos de gobierno de la ciudad desde la Edad Media hasta hoy. Sirve para consultar información sobre la ciudad.",
+      "images": [{"image": "img_valladolid_archivo_municipal1"},{"image": "img_valladolid_archivo_municipal2"}],
+      "videos": [ {"image": "img_valladolid_archivo_municipal1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/archivo-municipal/Video2.mp4"},
+                  {"image": "img_valladolid_archivo_municipal2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/archivo-municipal/Video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Tropa",
+          "definition": "Conjunto de soldados "
+        },
+        {
+          "name": "Albergue",
+          "definition": "Lugar que sirve para protegerse "
+        },
+        {
+          "name": "Pergamino",
+          "definition": "Un tipo de papel que sirve para escribir"
+        },
+        {
+          "name": "Gótico",
+          "definition": "Estilo de arte "
+        }
+      ]
+
+    },
+    { "id" : 6,
+      "name": "CONVENTO DE SANTA ISABEL",
+      "image": "img_valladolid_santa_isabel",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/convento-de-santa-isabel/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.0204827" ,
+          "longitude": "-5.3506884"
+        }
+      ],
+      "date": "Entre 1597 y 1604.",
+      "build": "Bartolomé de Solózano.",
+      "type": "Es gótico del Renacimiento.",
+      "history": "En 1472 se van a vivir las religiosas franciscanas. En 1484 el Papa Inocencio VIII dio permiso a las religiosas para vivir en el convento. En 1506 Bartolomé de Solórzano construyó la iglesia. Se termina de hacer en 1513.",
+      "curiosities": "El convento de de santa Isabel es un templo católico del centro de Valladolid. El convento ha sido restaurado hasta el año 2006.",
+      "uses": "Es un Convento.",
+      "images": [{"image": "img_valladolid_santa_isabel1"},{"image": "img_valladolid_santa_isabel2"},{"image": "img_valladolid_santa_isabel3"}],
+      "videos": [ {"image": "img_valladolid_santa_isabel1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/convento-de-santa-isabel/video1.mp4"},
+        {"image": "img_valladolid_santa_isabel2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/convento-de-santa-isabel/video2.mp4"},
+        {"image": "img_valladolid_santa_isabel3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/convento-de-santa-isabel/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Religiosas franciscanas",
+          "definition": "Grupo de la iglesia católica creado por San Francisco de Asís."
+        },
+        {
+          "name": "Convento",
+          "definition": " Casa donde viven los monjes y las monjas."
+        },
+        {
+          "name": "Templo",
+          "definition": "Edificio destinado al culto religioso"
+        }
+      ]
+
+    },
+    {"id" : 7,
+      "name": "Iglesia de San Nicolás",
+      "image": "img_valladolid_san_nicolas",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-nicolas/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.0313516" ,
+          "longitude": "-5.3451189"
+        }
+      ],
+      "date": "1595.",
+      "build": "Juan de Nates y Pedro de Solórzano la diseñaron. José de la Santísima Trinidad fue el autor de la fachada de la Iglesia.",
+      "type": "Los materiales son de ladrillo y tapial.",
+      "history": "Existió una primitiva iglesia  de San Nicolás en el entorno de la actual plaza de San Nicolás. Fue mandada construir por el conde Pedro Ansúrez. Durante la Guerra de Independencia fue desmantelada. Lo que quedó se usó para convertirse en un fuerte militar en 1837.",
+      "curiosities": "En 1816 cayó un rayo sobre esta iglesia. Si visitas la iglesia tres lunes seguidos y rezas a San Nicolás, se te cumple un deseo. Tienes que ir desde tu casa sin hablar.",
+      "uses": "Es un templo.",
+      "images": [{"image": "img_valladolid_san_nicolas1"},{"image": "img_valladolid_san_nicolas2"},{"image": "img_valladolid_san_nicolas3"}],
+      "videos": [ {"image": "img_valladolid_san_nicolas1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-nicolas/video1.mp4"},
+        {"image": "img_valladolid_san_nicolas2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-nicolas/video2.mp4"},
+        {"image": "img_valladolid_san_nicolas3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-nicolas/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Fachada",
+          "definition": "Muros exteriores de un edificio"
+        },
+        {
+          "name": "Primitiva",
+          "definition": "Algo que es primero."
+        },
+        {
+          "name": "Desmantelada",
+          "definition": "Derribar y desmantelas"
+        },
+        {
+          "name": "Fuerte militar",
+          "definition": "Edificio militar"
+        }
+      ]
+
+    },
+    { "id" : 8,
+      "name": "Plaza del Viejo Coso",
+      "image": "img_valladolid_viejo_caso",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/plaza-del-viejo-coso/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6567542" ,
+          "longitude": "-4.7305178"
+        }
+      ],
+      "date": "1833.",
+      "build": "Fue un proyecto de los arquitectos Manuel Finat y Javier López de Uribe.",
+      "type": "Su suelo tiene forma de octógono. Se parece a  otras plazas  como la de Tarazona (Zaragoza).",
+      "history": "Fue la primera plaza de toros de Valladolid. Antes los festejos taurinos se celebraban en la Plaza Mayor o en San Pablo. Se colocaban tribunas de madera para los espectadores.",
+      "curiosities": "Era una antigua plaza de toros.",
+      "uses": "Ahora son casas particulares.",
+      "images": [{"image": "img_valladolid_viejo_caso1"},{"image": "img_valladolid_viejo_caso2"},{"image": "img_valladolid_viejo_caso3"},{"image": "img_valladolid_viejo_caso4"}],
+      "videos": [ {"image": "img_valladolid_viejo_caso1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/plaza-del-viejo-coso/video1.mp4"},
+                  {"image": "img_valladolid_viejo_caso2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/plaza-del-viejo-coso/video2.mp4"},
+                  {"image": "img_valladolid_viejo_caso3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/plaza-del-viejo-coso/video3.mp4"}
+                 ],
+      "glossary": [
+        {
+          "name": "Octógono",
+          "definition": "Figura geométrica que tiene ocho lados"
+        },
+        {
+          "name": "Festejo taurino",
+          "definition": "Fiesta sobre los toros."
+        },
+        {
+          "name": "Tribunas de madera",
+          "definition": " Plataformas de madera"
+        }
+      ]
+
+    },
+    { "id" : 9,
+      "name": "Iglesia de San Pablo",
+      "image": "img_valladolid_san_pablo",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-pablo/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6569571" ,
+          "longitude": "-4.7267829"
+        }
+      ],
+      "date": "Entre 1445 y 1616.",
+      "build": "Se encargó a Juan de Nates. A través de un proyecto diseñado Francisco de Mora en el año 1613.",
+      "type": "Gótico.",
+      "history": "La iglesia es uno de los edificios más importantes de Valladolid. Se encuentra en la plaza de San Pablo, Ahí se bautizaron Felipe IV y Felipe II. Felipe II cuano nació, se le sacó por la ventana del Palacio de Pimentel que está al lado de San Pablo. Esto es para que Felipe II fuera bautizado en San Pablo. Si ha Felipe II le hubieran sacado por la puerta del Palacio Pimentel, tenían que bautizarle en la Iglesia de San Martín.",
+      "curiosities": "Tiene una fachada muy grande. Entre esta fachada se encuentra dos grande columnas. La fachada se encuentra llena de esculturas.",
+      "uses": "Es una Iglesia.",
+      "images": [{"image": "img_valladolid_san_pablo1"},{"image": "img_valladolid_san_pablo2"},{"image": "img_valladolid_san_pablo3"}],
+      "videos": [ {"image": "img_valladolid_san_pablo1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-pablo/video1.mp4"},
+                  {"image": "img_valladolid_san_pablo2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-pablo/video2.mp4"},
+                  {"image": "img_valladolid_san_pablo3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/san-pablo/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Fachada",
+          "definition": "Pared de un edificio"
+        }
+      ]
+
+    },
+    { "id" : 10,
+      "name": "La Catedral de Nuestra Señora de la Asunción",
+      "image": "img_valladolid_catedral",
+      "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/catedral/video1.mp4",
+      "localization": [
+        {
+          "latitude":"41.6526595" ,
+          "longitude": "-4.7256196"
+        }
+      ],
+      "date": "1589. Pero no está terminada.",
+      "build": "Juan de Herrera.",
+      "type": "Es una arquitectura del Renacimiento. Tiene un estilo herreriano y barroco.",
+      "history": "Fue construida por orden de Felipe II. Solo está construida un 40 por ciento de la catedral. Cuando se empezó no había suficientes recursos. Por eso no se acabó de construir. Se encuentra en el centro de Valladolid. En el año 1595 recibió la categoría de Catedral. Es uno de los monumentos más destacados de Valladolid.",
+      "curiosities": "Existe una leyenda. La campanera de la catedral falleció en el derrumbe de la torre en el año 1481. Aunque se dice que la leyenda no es verdad. Cuando se derrumbó quedó varias horas bajo los escombros. Pero la mujer sobrevivió.",
+      "uses": "Misas y visitas turísticas.",
+      "images": [{"image": "img_valladolid_catedral1"},{"image": "img_valladolid_catedral2"},{"image": "img_valladolid_catedral3"}],
+      "videos": [ {"image": "img_valladolid_catedral1", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/catedral/video1.mp4"},
+                  {"image": "img_valladolid_catedral2", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/catedral/video2.mp4"},
+                  {"image": "img_valladolid_catedral3", "link" :  "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta1-downvalladolid/catedral/video3.mp4"}],
+      "glossary": [
+        {
+          "name": "Herreriano",
+          "definition": "Estilo de arte"
+        },
+        {
+          "name": "Barroco",
+          "definition": "Estilo de arte"
+        },
+        {
+          "name": "Derrumbe",
+          "definition": "Destrucción o caída de algo"
+        },
+        {
+          "name": "Escombros",
+          "definition": "Restos de edificios"
+        }
+      ]
+
+    }
+  ]
+}]

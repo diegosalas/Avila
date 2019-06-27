@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/scrollView2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".fragments.RouteFragment">
+        <ImageView
+
+                android:src="@drawable/img_avila_catedral"
+                android:layout_width="0dp"
+                android:layout_height="236dp"
+                android:id="@+id/ImgMonumentVideo" android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintRutaTitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="parent" android:contentDescription="@string/todo"/>
+        <ImageView
+                android:src="@drawable/ic_video_play"
+                android:layout_width="61dp"
+                android:layout_height="61dp"
+                android:id="@+id/imageViewPlayVideoMonument" app:layout_constraintStart_toStartOf="@+id/ImgMonumentVideo"
+                app:layout_constraintTop_toTopOf="@+id/ImgMonumentVideo"
+                app:layout_constraintBottom_toBottomOf="@+id/ImgMonumentVideo"
+                app:layout_constraintEnd_toEndOf="@+id/ImgMonumentVideo" android:layout_marginEnd="8dp"
+                android:contentDescription="TODO"/>
+        <ImageView
+                android:src="@drawable/btn_takemehere"
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+                android:id="@+id/buttonBeginRoute" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintTop_toTopOf="@+id/ImgMonumentVideo"
+                android:contentDescription="TODO"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/constraintRutaTitle"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:id="@+id/constraintRutaTitle" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        >
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/white" android:layout_margin="8dp"
+                    android:id="@+id/verticalLine4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline2"
+                    tools:ignore="DuplicateIds"/>
+
+            <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:id="@+id/guideline"
+                                                        android:orientation="vertical"
+                                                        app:layout_constraintGuide_percent="0.1"/>
+            <ImageView
+                    android:src="@drawable/ic_left_narrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/img_back"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/guideline"
+                    android:contentDescription="TODO"/>
+            <TextView
+                    android:text="@string/monument_title"
+                    android:layout_width="171dp"
+                    android:layout_height="67dp"
+                    android:id="@+id/TextViewMonumentTitle"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/guideline" android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:ellipsize="end" android:singleLine="false"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintRuta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="0dp"
+                app:layout_constraintTop_toBottomOf="@+id/ImgMonumentVideo">
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/darker_gray" android:layout_margin="8dp"
+                    android:id="@+id/verticalLine3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline2"
+            />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/ContraintMonumentosTitle"
+                                                           android:layout_width="match_parent"
+                                                           android:layout_height="wrap_content"
+                                                           app:layout_constraintTop_toBottomOf="@+id/constraintRuta"
+
+        >
+            <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:id="@+id/guideline_photos"
+                                                        android:orientation="vertical"
+                                                        app:layout_constraintGuide_percent="0.86"/>
+            <ImageView
+                    android:src="@drawable/ic_left_narrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/img_right"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline_photos"
+                    android:rotation="270" android:contentDescription="TODO"/>
+            <TextView
+                    android:text="@string/more_videos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:id="@+id/titleMonuments"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"/>
+            <TextView android:layout_width="231dp" android:layout_height="wrap_content"
+                      android:id="@+id/TextViewMonumentTitle2"
+                      android:text="@string/monument_title2"
+                      android:textSize="18sp"
+                      tools:ignore="MissingConstraints"
+                      android:layout_marginTop="8dp"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toBottomOf="@+id/titleMonuments"
+                      app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+                      android:singleLine="true" android:ellipsize="end" android:layout_marginEnd="8dp"
+                      app:layout_constraintEnd_toStartOf="@+id/guideline_photos"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ScrollView android:layout_width="wrap_content" android:layout_height="match_parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ContraintMonumentosTitle"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/constraintDetailText">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewMonumentsVideos"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                        app:layout_constraintBottom_toTopOf="@+id/lineSeparator" android:layout_marginEnd="35dp"
+                        android:layout_marginStart="8dp">
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+                <View
+                        android:layout_width="0dp"
+                        android:layout_height="0.5dp"
+                        android:background="@android:color/darker_gray" android:layout_margin="8dp"
+
+                        android:id="@+id/lineSeparator"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/recyclerViewMonumentsVideos"
+                        app:layout_constraintBottom_toTopOf="@+id/textFecha"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="0dp"
+                          android:text="@string/TextViewDate"
+                          android:layout_marginTop="24dp"
+                          app:layout_constraintTop_toBottomOf="@id/lineSeparator"
+                          app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp"
+                          android:textSize="20sp" android:id="@+id/textFecha"
+                          android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_date"
+                          android:textSize="20sp" android:id="@+id/textjsonDate"
+                          app:layout_constraintTop_toBottomOf="@+id/textFecha"
+                          app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+                          app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="35dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_build"
+                          android:textSize="20sp" android:id="@+id/textBuild"
+                          android:textStyle="bold"
+                          app:layout_constraintTop_toBottomOf="@+id/textjsonDate"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument1"
+                          android:textSize="20sp" android:id="@+id/textjsonBuild"
+                          app:layout_constraintTop_toBottomOf="@+id/textBuild"
+                          android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginEnd="35dp" app:layout_constraintEnd_toEndOf="parent"
+                          android:textAlignment="gravity"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_type"
+                          android:textSize="20sp" android:id="@+id/textType"
+                          android:textStyle="bold"
+                          app:layout_constraintTop_toBottomOf="@id/textjsonBuild"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_description"
+                          android:textSize="20sp" android:id="@+id/textjsonType"
+                          app:layout_constraintTop_toBottomOf="@+id/textType"
+                          android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginEnd="35dp" app:layout_constraintEnd_toEndOf="parent"
+                          android:textAlignment="gravity"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/history"
+                          android:textSize="20sp" android:id="@+id/textHistory"
+                          android:textStyle="bold"
+                          app:layout_constraintTop_toBottomOf="@id/textjsonType"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"/>
+                <TextView android:id="@+id/textjsonHistory"
+                          android:textSize="20sp"
+                          android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument2"
+                          app:layout_constraintTop_toBottomOf="@+id/textHistory"
+                          android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp"
+                          android:layout_marginEnd="35dp" app:layout_constraintEnd_toEndOf="parent"
+                          android:textAlignment="gravity"/>
+
+                <TextView android:id="@+id/textCuriosities"
+                          android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_couriosities"
+                          android:textSize="20sp"
+                          android:textStyle="bold"
+                          app:layout_constraintTop_toBottomOf="@id/textjsonHistory"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"
+                />
+                <TextView android:id="@+id/textjsonCuriosities"
+                          android:textSize="20sp"
+                          android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_descriptio"
+                          app:layout_constraintTop_toBottomOf="@+id/textCuriosities"
+                          android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+                          android:layout_marginEnd="35dp" android:textAlignment="gravity"/>
+
+                <TextView android:id="@+id/textUses"
+                          android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/uses_label"
+                          android:textSize="20sp"
+                          android:textStyle="bold"
+                          app:layout_constraintTop_toBottomOf="@+id/textjsonCuriosities"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                          android:layout_marginTop="8dp"
+                          android:singleLine="false"/>
+                <TextView android:id="@+id/textjsonUses"
+                          android:textSize="20sp"
+                          android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:text="@string/example_data_monument_uses"
+                          app:layout_constraintTop_toBottomOf="@+id/textUses"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintStart_toStartOf="parent"
+                          android:layout_marginStart="16dp"
+                          app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="35dp"/>
+                <View
+                        android:id="@+id/lineSeparatorPhotos"
+                        android:layout_width="0dp"
+                        android:layout_height="0.5dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_margin="8dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textjsonUses"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="54dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textjsonUses"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" android:id="@+id/constraintLayout11"
+                        android:layout_marginTop="12dp" app:layout_constraintHorizontal_bias="0.0">
+
+                    <TextView
+                            android:text="Fotos"
+                            android:layout_width="52dp"
+                            android:layout_height="27dp"
+
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:id="@+id/textView3"
+                            android:layout_marginStart="16dp" app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+                    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+
+                                                                android:orientation="vertical"
+                                                                app:layout_constraintGuide_percent="0.86"
+                                                                android:id="@+id/guideline11"/>
+                    <ImageView
+                            android:src="@drawable/ic_left_narrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+
+
+                            android:id="@+id/imageView2"
+                            app:layout_constraintStart_toStartOf="@+id/guideline11"
+                            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                            android:rotation="180"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="171dp"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout11"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                        android:layout_marginEnd="35dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="8dp" app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:id="@+id/RecyclerViewMonumentPhotos"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
