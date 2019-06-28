@@ -24,17 +24,12 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.beust.klaxon.JsonObject
-import com.beust.klaxon.Parser
 
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.*
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.Marker
-import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.PolylineOptions
+import com.google.android.gms.maps.model.*
 
 
 import com.vectormobile.fundacionavila.R
@@ -44,7 +39,6 @@ import com.vectormobile.fundacionavila.models.Direction
 import com.vectormobile.fundacionavila.models.Route
 
 import com.vectormobile.fundacionavila.toast
-import com.vectormobile.fundacionavila.view.MapFragmentView
 import kotlinx.android.synthetic.main.fragment_map.view.*
 import kotlinx.android.synthetic.main.fragment_monument.*
 import org.json.JSONArray
@@ -54,7 +48,7 @@ import java.io.IOException
 import java.io.InputStream
 
 
-class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener, MapFragmentView {
+class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     override fun onMarkerClick(p0: Marker?): Boolean {
         return false
@@ -70,11 +64,14 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
     private val listOfRoutes: ArrayList<Route> by lazy { getRoutes() }
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var lastLocation: Location
+    private var lat: String? = null
+    private var lon: String? = null
+    private var nam: String? = null
+    private var name: String? = null
 
     private var latitude: String? = null
     private var longitude: String? = null
     private var arrayOfMonumentlocations: String? = null
-
 
 
     companion object {
@@ -108,21 +105,13 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
             longitude = arguments!!.getString("longitude")
         }
 
-        if (arguments?.getString("arrayOfMonumentlocations") != null) {
-            arrayOfMonumentlocations = arguments!!.getString("arrayOfMonumentlocations")
-           Log.d("Location",arrayOfMonumentlocations )
-
-            var json: String? = arrayOfMonumentlocations
-            var jsonarr = JSONArray(json)
-
-            for (i in 0..jsonarr!!.length() - 1) {
-                val name = jsonarr.getJSONObject(i).getString("name")
-                val lat = jsonarr.getJSONObject(i).getString("lat")
-                val lon = jsonarr.getJSONObject(i).getString("lon")
-                Log.d(i.toString(),"Nombre: ${name.toString()}, Lat: ${lat.toString()}, Lon: ${lon.toString()}" )
-            }
-
+        if (arguments?.getString("name") != null){
+            name = arguments!!.getString("name")
         }
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(activity!!)
+
+
 
 
 
@@ -165,7 +154,34 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
+        if (arguments?.getString("arrayOfMonumentlocations") != null) {
+            arrayOfMonumentlocations = arguments!!.getString("arrayOfMonumentlocations")
+            Log.d("Location",arrayOfMonumentlocations )
+
+            var json: String? = arrayOfMonumentlocations
+            var jsonarr = JSONArray(json)
+
+            for (i in 0..jsonarr!!.length() - 1) {
+                 nam = jsonarr.getJSONObject(i).getString("name")
+                 lat = jsonarr.getJSONObject(i).getString("lat")
+                 lon = jsonarr.getJSONObject(i).getString("lon")
+                val monument = LatLng(lat!!.toDouble(), lon!!.toDouble())
+                mMap.addMarker(MarkerOptions().position(monument).title(nam))
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(monument, 13f))
+                Log.d(i.toString(),"Nombre: ${nam.toString()}, Lat: ${lat.toString()}, Lon: ${lon.toString()}" )
+            }
+
+        }
+
+
         // Add a marker in Sydney and move the camera
+        if (latitude != null && longitude != null && name != null){
+        val convent = LatLng(latitude!!.toDouble(), longitude!!.toDouble())
+        //val church = LatLng(40.655782, -4.7058346)
+        //val wall = LatLng(40.6576166, -4.7059678)
+        mMap.addMarker(MarkerOptions().position(convent).title(name))}
+
+
         if (latitude != null && longitude != null) {
             val convent = LatLng(latitude!!.toDouble(), longitude!!.toDouble())
             //val church = LatLng(40.655782, -4.7058346)
@@ -182,6 +198,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
 
         mMap.setOnMarkerClickListener(this)
         mMap.uiSettings.isZoomControlsEnabled = false
+
         /*val latit = arguments?.get("latitude")
         val longit = arguments?.get("longitude")
         val pid = arguments?.get("pid")
@@ -192,11 +209,8 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
         setUpMap()
     }
 
-    override fun drawPoint(latitude: String, longitude: String, pin: String) {
-
-    }
-
     private fun placeMarker(location: LatLng) {
+
         val markerOption = MarkerOptions().position(location)
 
         mMap.addMarker(markerOption)
@@ -215,7 +229,9 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
             )
             return
         }
+
         mMap.isMyLocationEnabled = false
+
 
         fusedLocationClient.lastLocation.addOnSuccessListener(activity!!) { location ->
 
@@ -223,7 +239,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
                 lastLocation = location
                 val currentLatLong = LatLng(location.latitude, location.longitude)
                 placeMarker(currentLatLong)
-                if (latitude == null && longitude == null)
+                if (latitude == null && longitude == null && lat == null && lon == null && nam == null)
                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLong, 13f))
             }
         }

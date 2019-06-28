@@ -15,8 +15,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/santo-tomas/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6504138" ,
-            "longitude": "-4.6910515"
+            "latitude":"40.650415" ,
+            "longitude": "-4.688860"
           }
         ],
         "date": "De 1482 a 1493",
@@ -68,8 +68,8 @@
         "name": "La Muralla de Ávila",
         "localization": [
           {
-            "latitude":"40.6576166" ,
-            "longitude": "-4.7059678"
+            "latitude":"40.657621" ,
+            "longitude": "-4.697211"
           }
         ],
         "image": "img_avila_muralla",
@@ -155,8 +155,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/catedral/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6557824" ,
-            "longitude": "-4.6992417"
+            "latitude":"40.655785" ,
+            "longitude": "-4.697049"
           }
         ],
         "date": "Del siglo 12 al 18",
@@ -219,8 +219,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video1.mp4",
         "localization": [
           {
-            "latitude":"40.655782" ,
-            "longitude": "-4.7058346"
+            "latitude":"40.656060" ,
+            "longitude": "-4.700452"
           }
         ],
         "date": "Del siglo 12 al 16.",
@@ -229,9 +229,9 @@
         "history": "Esta parroquia ha sido muy importante. Desde el siglo 13 se reunía bajo sus soportales el concejo de la ciudad cuando no existía el edificio del Ayuntamiento. En 1539 se instaló la campana llamada “zumbo” que marcaba las horas y el ritmo de la vida de los abulenses. Llevaba grabado el escudo de armas de la ciudad y dos cruces. El toque de esta campana también servía para convocar las reuniones del concejo.",
         "curiosities": "Fue declarada Monumento Nacional en 1983. La pieza más antigua de la iglesia es la pila bautismal en la que fue bautizada Santa Teresa de Jesús. Es la sede de la Hermandad de Nuestra Sra. de La Esperanza cuya imagen puede verse en una de las capillas junto a la de Jesús de La Salud.",
         "uses": "Para celebraciones religiosas y visitas turísticas.",
-        "images": [{"image": "img_san_juan1"},{"image": "img_san_juan2"}],
-        "videos": [{"image": "img_san_juan1", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video2.mp4"},
-                   {"image": "img_san_juan2", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video3.mp4"}
+        "images": [{"image": "img_avila_san_juan1"},{"image": "img_avila_san_juan2"}],
+        "videos": [{"image": "img_avila_san_juan1", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video2.mp4"},
+                   {"image": "img_avila_san_juan2", "link" : "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/san-juan/video3.mp4"}
         ],
         "glossary": [
           {
@@ -267,8 +267,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/superunda/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6552844" ,
-            "longitude": "-4.7038405"
+            "latitude":"40.655286" ,
+            "longitude": "-4.701646"
           }
         ],
         "date": "Fue construido en 1580.",
@@ -290,12 +290,12 @@
       },
       {
         "id": 6,
-        "name": "Iglesia – Convento de Santa Teresa de Jesús",
+        "name": "Convento de Santa Teresa de Jesús",
         "image": "img_avila_convento",
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta2-downavila/la-santa/video1.mp4",        "localization": [
           {
-            "latitude":"40.6554222" ,
-            "longitude": "-4.704915"
+            "latitude":"40.655424" ,
+            "longitude": "-4.702718"
           }
         ],
         "date": "Principios del siglo 17",
@@ -365,8 +365,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-jose/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6551338" ,
-            "longitude": "-4.694127"
+            "latitude":"40.655137" ,
+            "longitude": "-4.691933"
           }
         ],
         "date": "El convento se fundó el 24 de agosto de 1562.",
@@ -425,8 +425,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/san-vicente-y-el-humilladero/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6580638" ,
-            "longitude": "-4.6981859"
+            "latitude":"40.658066" ,
+            "longitude": "-4.695992"
           }
         ],
         "date": "Durante el siglo 12 se construyo la basílica de San Vicente. El Humilladero fue construida en 1594.",
@@ -477,8 +477,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6646073" ,
-            "longitude": "-4.7297045"
+            "latitude":"40.662954" ,
+            "longitude": "-4.699808"
           }
         ],
         "date": "Se terminó la construcción en 1515.",
@@ -532,8 +532,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-encarnacion/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6579054" ,
-            "longitude": "-4.7097659"
+            "latitude":"40.658906" ,
+            "longitude": "-4.707688"
           }
         ],
         "date": "La ermita de San Segundo fue construida a principios del siglo 12. El puente romano , situado al lado de la ermita, es del siglo 3. Los Cuatro Postes se construyeron en 1566.",
@@ -587,8 +587,8 @@
         "video": "https://fundacion-avila.s3-eu-west-1.amazonaws.com/ruta3-fundabem/la-muralla/video1.mp4",
         "localization": [
           {
-            "latitude":"40.6576166" ,
-            "longitude": "-4.7059678"
+            "latitude":"40.657621" ,
+            "longitude": "-4.697211"
           }
         ],
         "date": "La muralla se comenzó a construir a finales del siglo 11",

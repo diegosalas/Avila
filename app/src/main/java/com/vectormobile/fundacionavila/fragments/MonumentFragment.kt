@@ -29,6 +29,13 @@ import org.json.JSONArray
 import java.io.IOException
 import java.io.InputStream
 
+import android.view.Window.FEATURE_NO_TITLE
+
+import android.app.Dialog
+import android.view.Window
+import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.dialog_photos.*
+
 
 private var TextViewMonumentTitle: TextView? = null
 private var TextViewMonumentTitle2: TextView? = null
@@ -48,9 +55,11 @@ private var textjsonCuriosities: TextView? = null
 private var textjsonUses: TextView? = null
 
 private var btnBackMonuments: ImageView? = null
+private var imgPhotosdialog: ImageView? = null
 
 var latitude = ""
 var longitude = ""
+var name = ""
 
 
 
@@ -96,7 +105,7 @@ class MonumentFragment : Fragment() {
 
 
         ImgMonumentVideo = v.findViewById<ImageView>(R.id.ImgMonumentVideo)
-
+        imgPhotosdialog = v.findViewById<ImageView>(R.id.imagePhotoDialog)
 
 
         // PLAY MAIN VIDEO
@@ -129,6 +138,7 @@ class MonumentFragment : Fragment() {
             val bundle = Bundle()
             bundle.putString("latitude", latitude)
             bundle.putString("longitude", longitude)
+            bundle.putString("name", name)
             bundle.putString("pin", "frg")
 
 
@@ -239,6 +249,12 @@ class MonumentFragment : Fragment() {
             override fun onClick(monumentPhotos: MonumentPhotos, position: Int) {
                  // Here you could amplify the image to full screen
                  // activity?.toast("Image id: ${monumentPhotos.image}!")
+                val settingsDialog = Dialog(activity)
+                settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE)
+                settingsDialog.setContentView(layoutInflater.inflate(R.layout.dialog_photos, null))
+               // imgPhotosdialog!!.loadByResource(monumentPhotos.image)
+
+                settingsDialog.show()
 
             }})
         recyclerMonumentPhotos.adapter = adapterPhotos
@@ -363,7 +379,7 @@ class MonumentFragment : Fragment() {
             var jsonobjc = jsonarr.getJSONObject(0)
             val monumetJson = jsonobjc.getJSONArray("monuments")
             val id: Int = monumetJson.getJSONObject(position).getInt("id")
-            val name = monumetJson.getJSONObject(position).getString("name")
+            name = monumetJson.getJSONObject(position).getString("name")
             val uri = "@drawable/" + monumetJson.getJSONObject(position).getString("image")
             val tempImage: Int = activity!!.getResources().getIdentifier(
                 uri, "drawable",

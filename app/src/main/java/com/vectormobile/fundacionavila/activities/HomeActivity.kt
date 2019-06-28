@@ -24,6 +24,7 @@ class HomeActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     val fm = supportFragmentManager
     var active = fragment1
     var citySelected = ""
+    var check = 0
 
     private val toolbarIcons = arrayOf(
         R.drawable.avila_spinner,
@@ -42,19 +43,19 @@ class HomeActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_view -> {
-                fragmentTransaction(fragment2,"whattosee")
+                fragmentTransaction(fragment2, "whattosee")
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_settings -> {
-                fragmentTransaction(fragment3,"settings")
+                fragmentTransaction(fragment3, "settings")
                 return@OnNavigationItemSelectedListener true
             }
         }
         false
     }
+
     private fun fragmentTransaction(fragment: Fragment, tag: String) {
-        if(!fragment.isAdded())
-        {
+        if (!fragment.isAdded()) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.main_container, fragment, tag)
                 .commit()
@@ -65,26 +66,39 @@ class HomeActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        fm.beginTransaction().add(R.id.main_container,fragment1, "map").commit();
+
+        fm.beginTransaction().add(R.id.main_container, fragment1, "map").commit()
+
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
         binding.navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
         val sharedApp = getSharedPreferences("SELECTION", 0)
 
-        citySelected = sharedApp?.getString("CITY","Avila").toString()
-        if( citySelected.equals("Avila")){
+        citySelected = sharedApp?.getString("CITY", "Avila").toString()
+        if (citySelected.equals("Avila")) {
+            check = 1
             binding.toolbarSpinner.adapter =
                 ToolbarSpinnerAdapter(this, toolbarIcons)
-        }else{
-
+        } else {
+            check = 2
             binding.toolbarSpinner.adapter =
                 ToolbarSpinnerAdapter(this, toolbarIcons2)
         }
+
         binding.toolbarSpinner.onItemSelectedListener = this
+
 
         binding.guiaTv.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+    }
+
+    fun onCreate2(savedInstanceState: Bundle?) {
+        savedInstanceState
+        fm.beginTransaction().add(R.id.main_container, fragment1, "map").commit();
+
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
+        binding.navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
     }
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -95,27 +109,50 @@ class HomeActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         var startingApp: Boolean
         val sharedApp = getSharedPreferences("SELECTION", 0)
         var editor = sharedApp.edit()
-        citySelected = sharedApp?.getString("CITY","Avila").toString()
+        citySelected = sharedApp?.getString("CITY", "Avila").toString()
         startingApp = sharedApp?.getBoolean("STARTING_APP", true)!!
 
         if (startingApp.equals(true)) {
-            editor.putBoolean("STARTING_APP",false).apply()
-        }else{
-            editor.putBoolean("STARTING_APP",false).apply()
-            if(position.equals(0)){
-                editor.putString("CITY","Avila").apply()
-                Log.d("spinner status","Selected: $position city sellected Avila $citySelected starting app $startingApp")
+            editor.putBoolean("STARTING_APP", false).apply()
+        } else {
+            editor.putBoolean("STARTING_APP", true).apply()
+            if (check == 2) {
+                if (citySelected != "Avila") {
+                    editor.putString("CITY", "Avila").apply()
+                    check = 1
+                    val intent = Intent(this, HomeActivity::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent)
+                }
+                Log.d(
+                    "spinner status",
+                    "Selected: $position city sellected Avila $citySelected starting app $startingApp id $id"
+                )
+            } else {
 
-            }else{
-                editor.putString("CITY","Valladolid").apply()
-                Log.d("spinner status","Selected: $position city sellected Valladolid $citySelected starting app $startingApp")
+
+                if (citySelected != "Valladolid") {
+                    editor.putString("CITY", "Valladolid").apply()
+                    check = 2
+                    val intent = Intent(this, HomeActivity::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent)
+                    Log.d(
+                        "spinner status",
+                        "Selected: $position city sellected Valladolid $citySelected starting app $startingApp id $id"
+                    )
+
+                }
+
             }
         }
-
     }
+
 
     override fun onBackPressed() {
         //super.onBackPressed()
     }
 }
+
+
 

@@ -26,6 +26,9 @@ import org.json.JSONArray
 import java.io.IOException
 import java.io.InputStream
 
+import android.os.Parcelable
+import androidx.core.view.isVisible
+
 
 
 private var TextViewTitle: TextView? = null
@@ -40,9 +43,13 @@ var arrayOfMonumentlocations = "["
 
 
 
+
 class RouteFragment : Fragment() {
     private lateinit var recycler: RecyclerView
     private lateinit var adapter: MonumentRaceAdapter
+    private lateinit var tvTitleRace: TextView
+    private lateinit var laneHideable: View
+    private lateinit var imageVideo: ImageView
     private val list: ArrayList<Monument> by lazy { getMonuments() }
 
 
@@ -63,6 +70,9 @@ class RouteFragment : Fragment() {
         ImgViewForVideo = v.findViewById<ImageView>(R.id.ImgMonumentVideo)
         TextViewDescription = v.findViewById(R.id.textDescription)
         TextViewDuration = v.findViewById(R.id.textDuration)
+        //tvTitleRace = v.findViewById(R.id.textViewCityName)
+        //imageVideo = v.findViewById(R.id.imageViewVideo)
+        //laneHideable = v.findViewById(R.id.verticalLineHideable)
 
       // BackButton
         btnBackRoutes = v.findViewById(R.id.img_back)
@@ -74,7 +84,24 @@ class RouteFragment : Fragment() {
 
         }
 
-       //Open Map Location
+       //monument race visibility
+
+
+
+
+
+
+        /*tvTitleRace.setOnClickListener {
+            if (imageVideo.isVisible && laneHideable.isVisible){
+                imageVideo.visibility = View.VISIBLE
+                laneHideable.visibility = View.VISIBLE
+            } else{
+                imageVideo.visibility = View.INVISIBLE
+                laneHideable.visibility = View.INVISIBLE
+            }
+        }*/
+
+        //Open Map Location
 
         btnBeginRoute = v.findViewById(R.id.buttonBeginRoute)
 

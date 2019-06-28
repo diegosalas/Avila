@@ -13,17 +13,27 @@
     <ImageView
             android:id="@+id/imageViewVideo"
             android:layout_width="0dp"
+            android:visibility="visible"
             android:layout_height="217dp" android:layout_marginTop="16dp"
             card_view:layout_constraintTop_toBottomOf="@+id/textViewCityName" android:layout_marginEnd="24dp"
             card_view:layout_constraintEnd_toEndOf="parent" card_view:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="45dp"
             card_view:layout_constraintBottom_toBottomOf="parent"/>
 
+    <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/colorText"
+            android:id="@+id/verticalLinePermanent"
+            card_view:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
+            card_view:layout_constraintBottom_toTopOf="@+id/verticalLineHideable"
+            card_view:layout_constraintTop_toBottomOf="@+id/imageView"/>
     <TextView
             android:id="@+id/textViewCityName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:clickable="true"
+            android:focusable="true"
             android:textColor="@color/colorRace"
             android:text="1. Palacio de Valdebárranos"
             android:gravity="top"
@@ -60,11 +70,14 @@
 
     <View
             android:layout_width="1dp"
-            android:layout_height="241dp"
+            android:layout_height="221dp"
+            android:visibility="visible"
             android:background="@color/colorText"
-            android:id="@+id/verticalLine"
+            android:id="@+id/verticalLineHideable"
             card_view:layout_constraintTop_toBottomOf="@+id/imageView"
-            card_view:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
+            card_view:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/imageViewVideo"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

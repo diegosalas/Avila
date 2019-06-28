@@ -19,6 +19,8 @@
             android:screenOrientation="portrait"
             android:supportsRtl="true"
             android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activities.MainActivity">
+        </activity>
         <activity android:name=".activities.FullVideoActivity">
         </activity>
         <activity
@@ -39,10 +41,10 @@
                 android:value="@string/google_maps_key"/>
         <meta-data
                 android:name="com.google.android.gms.version"
-                android:value="@integer/google_play_services_version" />
+                android:value="@integer/google_play_services_version"/>
 
         <activity android:name=".activities.HomeActivity"/>
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
